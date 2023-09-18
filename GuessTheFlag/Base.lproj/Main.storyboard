@@ -16,31 +16,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mnD-r9-7oC">
-                                <rect key="frame" x="96" y="230" width="200" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mnD-r9-7oC">
+                                <rect key="frame" x="84.666666666666686" y="230" width="224" height="100"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7N0-hF-yiA">
-                                <rect key="frame" x="96" y="360" width="200" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7N0-hF-yiA">
+                                <rect key="frame" x="84.666666666666686" y="360" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTa-nZ-kpL">
-                                <rect key="frame" x="96" y="100" width="200" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTa-nZ-kpL">
+                                <rect key="frame" x="84.666666666666686" y="100" width="224" height="100"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="mnD-r9-7oC" firstAttribute="top" secondItem="eTa-nZ-kpL" secondAttribute="bottom" constant="30" id="Imw-U1-k3K"/>
                             <constraint firstItem="mnD-r9-7oC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="127" id="LRR-GN-T1W"/>
                             <constraint firstItem="7N0-hF-yiA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="S0B-r9-gm7"/>
+                            <constraint firstItem="mnD-r9-7oC" firstAttribute="centerX" secondItem="eTa-nZ-kpL" secondAttribute="centerX" id="UzB-Zs-Ztm"/>
+                            <constraint firstItem="7N0-hF-yiA" firstAttribute="top" secondItem="mnD-r9-7oC" secondAttribute="bottom" constant="30" id="X8r-ZL-GNj"/>
                             <constraint firstItem="7N0-hF-yiA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="257" id="YEQ-hk-DzV"/>
                             <constraint firstItem="eTa-nZ-kpL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aP4-VK-ho9"/>
                             <constraint firstItem="mnD-r9-7oC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="mwe-Mc-sYZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="eTa-nZ-kpL" secondAttribute="top" constant="3" id="qpV-4c-jLd"/>
+                            <constraint firstItem="7N0-hF-yiA" firstAttribute="centerX" secondItem="mnD-r9-7oC" secondAttribute="centerX" id="tXC-5A-JcF"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="X8T-QB-ZqY"/>
@@ -69,6 +73,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="us" width="200" height="100"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
